@@ -1,0 +1,30 @@
+.header {
+    width: 100%;
+    margin: 1rem auto;
+
+    nav {
+        width: 50%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        ul {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            li {
+               cursor: pointer;
+               padding: 10px 20px;
+               background: crimson;
+               color: #fff;
+               font-weight: 500;
+               font-size: 1.1rem;
+               border-radius: 4px;
+
+
+            }
+        }
+    }
+}

@@ -1,0 +1,85 @@
+.table {
+    width: 90%;
+    margin: 1rem auto;
+}
+
+.table_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+table {
+    display: block;
+    overflow-x: auto;
+    width: 100%;
+    border-collapse: collapse;
+    border: none !important;
+
+    tr {
+        th {
+            padding: 10px;
+            background: #fff !important;
+        }
+
+        td {
+            padding: 10px;
+            text-align: center;
+            color: #404040;
+
+            svg {
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+    tr:nth-child(odd) {
+        background: #f1f1f1;
+    }
+}
+
+.filter {
+    input {
+        padding: 12px 7px;
+        border: 1px solid #c7c7c7;
+        border-radius: 4px;
+        width: 400px;
+        max-width: 100%;
+    }
+}
+
+.pagination {
+    ul {
+        display: flex;
+        list-style: none;
+        padding: 0 !important;
+        border: 1px solid #e7e7e7;
+        justify-content: flex-start;
+        border-radius: 4px;
+
+        li {
+            border-right: 1px solid #e7e7e7;
+            text-align: center;
+            flex: 1;
+            cursor: pointer;
+            padding: 10px;
+        }
+
+        button {
+            outline: none;
+            background: transparent;
+            border: 1px solid #e7e7e7;
+            text-align: center;
+            padding: 5px;
+            cursor: pointer;
+        }
+
+    }
+}
+
+.active {
+    background: #000;
+    color: #fff;
+    font-weight: 500;
+}
